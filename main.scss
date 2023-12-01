@@ -63,6 +63,9 @@ header {
     nav {
 
         ul {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5em;
 
             li {
 
@@ -76,8 +79,20 @@ header {
                 }
 
                 .wrapper {
+                    margin-top: 1em;
+                    margin-bottom: 1em;
 
                     .inner {
+
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1em;
+
+                        .card {
+                            background-color: #1d1f2d;
+                            padding: 1em 2em;
+                            border-radius: 1em;
+                        }
 
                         h4 {
                             color: #fff;
