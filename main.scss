@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 
+ul li {
+    list-style: none;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+//----------HEADER----------//
 header {
     background-color: #040716;
     padding: 1.8em 2em;
@@ -43,3 +52,5 @@ header {
     }
 
 }
+
+//----------HEADER END----------//
