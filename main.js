@@ -1,8 +1,10 @@
 // BURGER MENU UTILITIES
-let mobileNav = document.getElementById("menu-toggle");
+let mobileNavBtn = document.getElementById("menu-toggle");
+let mobileNavPage = document.getElementById("mobile-nav-page")
 
-mobileNav.onclick = () => {
-    mobileNav.classList.toggle("is-active")
+mobileNavBtn.onclick = () => {
+    mobileNavBtn.classList.toggle("is-active")
+    mobileNavPage.classList.toggle("is-active")
 }
 
 //---------MOBILE NAV LIST---------//

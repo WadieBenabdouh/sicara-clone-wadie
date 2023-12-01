@@ -62,6 +62,7 @@ header {
     background-color: #040716;
     padding: 1em 2em;
     min-height: 90vh;
+    display: none;
 
     nav {
 
@@ -191,6 +192,10 @@ header {
             }
         }
     }
+}
+
+#mobile-nav-page.is-active {
+    display: block;
 }
 
 //----------MOBILE NAV PAGE END-----------//
