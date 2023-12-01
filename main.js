@@ -41,4 +41,15 @@ accordionBtnThree.onclick = () => {
 
 // Nos Partenaires END
 
+//Blogs
+let accordionBtnFour = document.getElementById("accordionBtn-four");
+let innerFour = document.getElementById("inner-four");
+let caretFour = document.getElementById("caret-four")
+
+accordionBtnFour.onclick = () => {
+    innerFour.classList.toggle("is-open")
+    caretFour.classList.toggle("active");
+}
+//Blogs END
+
 //---------MOBILE NAV LIST---------//
