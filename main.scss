@@ -54,3 +54,29 @@ header {
 }
 
 //----------HEADER END----------//
+
+//----------MOBILE NAV PAGE-----------//
+#mobile-nav-page {
+    background-color: #040716;
+    padding: 1em 2em;
+
+    nav {
+
+        ul {
+
+            li {
+
+                a {
+                    color: #686a73;
+                    font-size: 1.5rem;
+
+                    i {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//----------MOBILE NAV PAGE END-----------//
