@@ -21,6 +21,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
 
     #menu-toggle {
         border: none;
@@ -59,7 +61,7 @@ header {
 #mobile-nav-page {
     background-color: #040716;
     padding: 1em 2em;
-    min-height: 100vh;
+    min-height: 90vh;
 
     nav {
 

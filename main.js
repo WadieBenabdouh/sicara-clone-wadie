@@ -52,4 +52,4 @@ accordionBtnFour.onclick = () => {
 }
 //Blogs END
 
-//---------MOBILE NAV LIST---------//
+//---------MOBILE NAV LIST END---------//
