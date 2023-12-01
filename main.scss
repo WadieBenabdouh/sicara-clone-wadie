@@ -114,7 +114,8 @@ header {
 
                     .inner.is-open,
                     .inner-two.is-open,
-                    .inner-three.is-open {
+                    .inner-three.is-open,
+                    .inner-four.is-open {
                         overflow: visible;
                     }
 
@@ -139,6 +140,10 @@ header {
                             margin-top: .5em;
                         }
                     }
+                }
+
+                .wrapper-four{
+                    
                 }
             }
         }
