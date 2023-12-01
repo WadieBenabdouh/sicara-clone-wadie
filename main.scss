@@ -1,10 +1,45 @@
-*, ::before, ::after{
-    margin:0;
-    padding:0;
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     background-color: #040716;
     padding: 1.8em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    #menu-toggle {
+        border: none;
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        gap: 0.7em;
+        background: none;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        span {
+            display: block;
+            height: 2px;
+            background-color: #e29c5a;
+            width: 1.5em;
+            transition: 0.2s;
+        }
+    }
+
+    #menu-toggle.is-active :nth-child(1) {
+        transform: translateY(250%);
+    }
+
+    #menu-toggle.is-active :nth-child(2) {
+        transform: translateY(-250%);
+    }
+
 }
