@@ -77,6 +77,9 @@ header {
                     i {
                         font-size: 15px;
                     }
+                    i.active{
+                        rotate: 90deg;
+                    }
                 }
 
                 .wrapper {
@@ -91,6 +94,7 @@ header {
                         flex-direction: column;
                         gap: 1em;
                         overflow: hidden;
+                        transition: 0.3s;
 
                         .card {
                             background-color: #1d1f2d;
