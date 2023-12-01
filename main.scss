@@ -59,6 +59,7 @@ header {
 #mobile-nav-page {
     background-color: #040716;
     padding: 1em 2em;
+    min-height: 100vh;
 
     nav {
 
@@ -81,12 +82,15 @@ header {
                 .wrapper {
                     margin-top: 1em;
                     margin-bottom: 1em;
+                    display: grid;
+                    grid-template-rows: 0fr;
+                    transition: grid-template-rows 0.4s ease-out;
 
                     .inner {
-
                         display: flex;
                         flex-direction: column;
                         gap: 1em;
+                        overflow: hidden;
 
                         .card {
                             background-color: #1d1f2d;
@@ -101,6 +105,10 @@ header {
                         p {
                             color: #fff;
                         }
+                    }
+
+                    .inner.is-open {
+                        overflow: visible;
                     }
                 }
             }
