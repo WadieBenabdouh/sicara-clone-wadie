@@ -208,8 +208,23 @@ header {
                 display: none;
             }
 
-            #mobile-nav-search.visible{
+            #mobile-nav-search.visible {
                 display: block;
+            }
+
+            .contact-us {
+                width: 40%;
+                padding: 1.5em 1em;
+                border-radius: 50px;
+                background-color: #040716;
+                color: #fff;
+                border: solid 1px gray;
+                transition: 0.3s;
+            }
+
+            .contact-us:hover {
+                border: solid 1px #fff;
+                cursor: pointer;
             }
         }
     }
