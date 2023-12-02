@@ -15,6 +15,7 @@ let innerOne = document.getElementById("inner-one");
 let caretOne = document.getElementById("caret-one")
 
 accordionBtnOne.onclick = () => {
+    accordionBtnOne.classList.toggle("clicked");
     innerOne.classList.toggle("is-open")
     caretOne.classList.toggle("active")
 }
@@ -26,6 +27,7 @@ let innerTwo = document.getElementById("inner-two")
 let caretTwo = document.getElementById("caret-two")
 
 accordionBtnTwo.onclick = () => {
+    accordionBtnTwo.classList.toggle("clicked");
     innerTwo.classList.toggle("is-open");
     caretTwo.classList.toggle("active");
 }
@@ -37,6 +39,7 @@ let innerThree = document.getElementById("inner-three");
 let caretThree = document.getElementById("caret-three")
 
 accordionBtnThree.onclick = () => {
+    accordionBtnThree.classList.toggle("clicked");
     innerThree.classList.toggle("is-open")
     caretThree.classList.toggle("active");
 }
@@ -49,6 +52,7 @@ let innerFour = document.getElementById("inner-four");
 let caretFour = document.getElementById("caret-four")
 
 accordionBtnFour.onclick = () => {
+    accordionBtnFour.classList.toggle("clicked");
     innerFour.classList.toggle("is-open")
     caretFour.classList.toggle("active");
 }

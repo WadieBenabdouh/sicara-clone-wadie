@@ -92,6 +92,21 @@ header {
                     }
                 }
 
+                //Nos clients + Notre Histoire (hoverColor effect)
+                .hoverColor {
+                    transition: 0.3s;
+                }
+
+                .hoverColor:hover {
+                    color: #fff;
+                }
+
+                //links that change color upon clicking
+                .onclickColor.clicked {
+                    color: #fff;
+                    transition: all 0.2s;
+                }
+
                 .wrapper {
                     display: grid;
                     grid-template-rows: 0fr;
