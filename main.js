@@ -54,4 +54,13 @@ accordionBtnFour.onclick = () => {
 }
 //Blogs END
 
+//Search field
+let searchIcon = document.getElementById("searchIcon");
+let searchInput = document.getElementById("mobile-nav-search");
+
+searchIcon.onclick = () => {
+    searchInput.classList.toggle("visible")
+}
+//Search field END
+
 //---------MOBILE NAV LIST END---------//

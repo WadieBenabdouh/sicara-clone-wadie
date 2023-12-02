@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 *,
 ::before,
 ::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
 }
 
 ul li {
@@ -189,6 +195,21 @@ header {
                         }
                     }
                 }
+            }
+
+            .fa-magnifying-glass {
+                color: #6f7077;
+            }
+
+            #mobile-nav-search {
+                padding: 10px 20px;
+                border-radius: 10px;
+                border: none;
+                display: none;
+            }
+
+            #mobile-nav-search.visible{
+                display: block;
             }
         }
     }
