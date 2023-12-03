@@ -318,13 +318,14 @@ article {
         display: flex;
         gap: 3em;
         overflow-x: scroll; //OMG
-        scroll-snap-type: mandatory;
+        scroll-snap-type: x mandatory;
 
 
         figure {
             display: flex;
             align-items: center;
-            
+            scroll-snap-align: start;
+
 
             img {
                 max-width: 80px;
