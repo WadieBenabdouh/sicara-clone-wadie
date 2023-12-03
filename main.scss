@@ -351,8 +351,6 @@ article {
     flex-direction: column;
     gap: 3em;
 
-
-
     .descriptionGpt {
         display: flex;
         flex-direction: column;
@@ -406,4 +404,13 @@ article {
     }
 }
 
+.sicaraGpt.hidden {
+    display: none;
+}
 //---------ASIDE SICARA GPT END---------//
+
+
+
+//--------DEPLOY--------//
+
+//--------DEPLOY END--------//
