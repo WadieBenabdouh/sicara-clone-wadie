@@ -61,10 +61,20 @@ accordionBtnFour.onclick = () => {
 //Search field
 let searchIcon = document.getElementById("searchIcon");
 let searchInput = document.getElementById("mobile-nav-search");
+let closeSearch = document.getElementById("close-search")
 
 searchIcon.onclick = () => {
     searchInput.classList.toggle("visible")
+    searchIcon.classList.toggle("requested")
+    closeSearch.classList.toggle("active")
 }
+
+closeSearch.onclick = () => {
+    searchInput.classList.remove("visible")
+    searchIcon.classList.remove("requested")
+}
+
+
 //Search field END
 
 //---------MOBILE NAV LIST END---------//
