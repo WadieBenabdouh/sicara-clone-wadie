@@ -321,7 +321,7 @@ article {
         display: flex;
         gap: 3em;
         overflow-x: scroll; //OMG
-        scroll-snap-type: x mandatory;
+        scroll-snap-type: x proximity;
 
 
         figure {
@@ -390,6 +390,13 @@ article {
                 border-bottom: solid #040716 2px;
                 gap: 0.4em;
             }
+        }
+    }
+
+    picture{
+        
+        img{
+            max-width: 100%;
         }
     }
 }
