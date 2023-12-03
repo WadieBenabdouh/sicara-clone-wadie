@@ -72,6 +72,7 @@ searchIcon.onclick = () => {
 closeSearch.onclick = () => {
     searchInput.classList.remove("visible")
     searchIcon.classList.remove("requested")
+    closeSearch.classList.remove("active")
 }
 
 

@@ -235,12 +235,13 @@ header {
             }
 
             #close-search{
+                display: none;
                 cursor: pointer;
                 color: #000000;
                 position: absolute;
                 top: 31.7em;
                 left: 86%;
-                display: none;
+                
             }
 
             #close-search.active{
