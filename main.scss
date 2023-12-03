@@ -279,6 +279,7 @@ article {
     flex-direction: column;
     padding: 3em 2em;
     gap: 5em;
+    z-index: -2; //nice
 
     .bg-video {
         position: absolute;
