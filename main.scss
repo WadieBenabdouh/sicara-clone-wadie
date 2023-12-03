@@ -234,17 +234,17 @@ header {
                 display: block;
             }
 
-            #close-search{
+            #close-search {
                 display: none;
                 cursor: pointer;
                 color: #000000;
                 position: absolute;
                 top: 31.7em;
                 left: 86%;
-                
+
             }
 
-            #close-search.active{
+            #close-search.active {
                 display: block;
             }
 
@@ -271,3 +271,63 @@ header {
 }
 
 //----------MOBILE NAV PAGE END-----------//
+
+//---------ARTICLE----------//
+article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 3em 2em;
+    gap: 5em;
+
+    .bg-video {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        width: auto;
+        height: 100%;
+    }
+
+    .hero-title {
+        display: flex;
+        flex-direction: column;
+        gap: .5em;
+
+        h1 {
+            color: #e9b381;
+            font-style: italic;
+        }
+
+        h3 {
+            color: #fff;
+            font-size: 23px;
+        }
+
+    }
+
+    .description {
+        p {
+            color: #fff;
+            font-size: 18px;
+            line-height: 1.5em;
+        }
+    }
+
+    .sponsors {
+        display: flex;
+
+        figure {
+            display: flex;
+            align-items: center;
+
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+
+//---------ARTICLE END----------//
+//color: #e9b381;
