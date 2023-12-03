@@ -5,6 +5,7 @@ let mobileNavPage = document.getElementById("mobile-nav-page")
 mobileNavBtn.onclick = () => {
     mobileNavBtn.classList.toggle("is-active")
     mobileNavPage.classList.toggle("is-active")
+    mainArticle.classList.toggle("hidden")
 }
 
 //---------MOBILE NAV LIST---------//
@@ -79,3 +80,8 @@ closeSearch.onclick = () => {
 //Search field END
 
 //---------MOBILE NAV LIST END---------//
+
+//----------mainArticle-----------//
+let mainArticle = document.getElementById("mainArticle");
+
+//----------mainArticle END-----------//
