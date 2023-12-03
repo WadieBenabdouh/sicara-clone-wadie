@@ -280,7 +280,7 @@ article {
     flex-direction: column;
     padding: 3em 2em;
     gap: 5em;
-    z-index: -2; //nice
+    z-index: 50; //nice
 
     .bg-video {
         position: absolute;
@@ -326,7 +326,7 @@ article {
         figure {
             display: flex;
             align-items: center;
-            // scroll-snap-align: start;
+            scroll-snap-align: start;
 
 
             img {
@@ -375,6 +375,10 @@ article {
             text-decoration: none;
             border-bottom: solid #e29c5a;
             align-self: flex-start;
+
+            svg {
+                color: red;
+            }
         }
     }
 }
