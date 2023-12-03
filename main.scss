@@ -272,6 +272,7 @@ header {
 
 //----------MOBILE NAV PAGE END-----------//
 
+
 //---------ARTICLE----------//
 article {
     position: relative;
@@ -334,8 +335,48 @@ article {
         }
     }
 }
-#mainArticle.hidden{
+
+#mainArticle.hidden {
     display: none;
 }
 
 //---------ARTICLE END----------//
+
+
+//---------ASIDE SICARA GPT---------//
+.sicaraGpt {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+
+    h2 {
+        width: 85%;
+    }
+
+    .descriptionGpt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+
+        h4 {
+            color: #6f7077;
+        }
+
+        p {
+            color: #6f7077;
+            font-size: 16px;
+            line-height: 1.7em;
+        }
+
+        a {
+            color: #e29c5a;
+            text-decoration: none;
+            border-bottom: solid #e29c5a;
+            align-self: flex-start;
+        }
+    }
+}
+
+//---------ASIDE SICARA GPT END---------//
