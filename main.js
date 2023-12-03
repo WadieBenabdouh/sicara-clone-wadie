@@ -87,5 +87,4 @@ let mainArticle = document.getElementById("mainArticle");
 
 //--------SICARA GPT----------//
 let sicaraGpt = document.getElementById("sicaraGpt");
-console.log(sicaraGpt);
 //--------SICARA GPT END----------//

@@ -250,7 +250,7 @@ header {
             }
 
             .contact-us {
-                width: 40%;
+                width: 50%;
                 padding: 1.5em 1em;
                 border-radius: 50px;
                 background-color: #040716;
@@ -407,10 +407,56 @@ article {
 .sicaraGpt.hidden {
     display: none;
 }
+
 //---------ASIDE SICARA GPT END---------//
 
-
-
 //--------DEPLOY--------//
+#deployPage {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+
+    h2 {
+        text-align: center;
+    }
+
+    .steps-one {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+        align-items: center;
+
+        >:nth-child(1) {
+            background-color: #e29c5a;
+            color: #fff;
+        }
+
+        a {
+            color: #e29c5a;
+            background-color: #feecdb;
+            padding: 1.5em;
+            width: 100%;
+            border-radius: 10px;
+            text-decoration: none;
+            text-align: center;
+            box-shadow: #f9e6d3 0px 0px 25px;
+            transition: 0.3s;
+
+            &:hover {
+                background-color: #e29c5a;
+                color: #fff;
+            }
+        }
+    }
+
+    .steps-two {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+        align-items: center;
+    }
+}
 
 //--------DEPLOY END--------//
