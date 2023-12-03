@@ -316,13 +316,18 @@ article {
 
     .sponsors {
         display: flex;
+        gap: 3em;
+        overflow-x: scroll; //OMG
+        scroll-snap-type: mandatory;
+
 
         figure {
             display: flex;
             align-items: center;
+            
 
             img {
-                max-width: 100%;
+                max-width: 80px;
             }
         }
     }
