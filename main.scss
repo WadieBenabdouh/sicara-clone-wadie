@@ -455,7 +455,42 @@ article {
         display: flex;
         flex-direction: column;
         gap: 1.5em;
-        align-items: center;
+        
+        .note{
+            background-color: #f8f8f8;
+            padding: 2em;
+            display: flex;
+            flex-direction: column;
+            gap: 2.5em;
+            border-radius: 30px;
+            transition: 0.3s;
+
+            &:hover{
+                background-color: #040716;
+                color: #fff;
+                border-radius: 10px;
+            }
+
+            .discover{
+                display: flex;
+                flex-direction: column;
+                gap: 1em;
+
+                hr{
+                    color: gray;
+                    opacity: 0.2;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: #000;
+                }
+                
+            }
+        }
+        .note:hover a{
+            color: #fff;
+        }
     }
 }
 
