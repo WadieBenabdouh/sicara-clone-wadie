@@ -455,8 +455,8 @@ article {
         display: flex;
         flex-direction: column;
         gap: 1.5em;
-        
-        .note{
+
+        .note {
             background-color: #f8f8f8;
             padding: 2em;
             display: flex;
@@ -465,33 +465,38 @@ article {
             border-radius: 30px;
             transition: 0.3s;
 
-            &:hover{
+            &:hover {
                 background-color: #040716;
                 color: #fff;
                 border-radius: 10px;
             }
 
-            .discover{
+            .discover {
                 display: flex;
                 flex-direction: column;
                 gap: 1em;
 
-                hr{
+                hr {
                     color: gray;
                     opacity: 0.2;
                 }
 
-                a{
+                a {
                     text-decoration: none;
                     color: #000;
                 }
-                
+
             }
         }
-        .note:hover a{
+
+        .note:hover a {
             color: #fff;
         }
     }
+}
+
+#deployPage.hidden {
+    display: none;
 }
 
 //--------DEPLOY END--------//

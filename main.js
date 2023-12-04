@@ -7,6 +7,7 @@ mobileNavBtn.onclick = () => {
     mobileNavPage.classList.toggle("is-active");
     mainArticle.classList.toggle("hidden");
     sicaraGpt.classList.toggle("hidden");
+    deployPage.classList.toggle("hidden");
 }
 
 //---------MOBILE NAV LIST---------//
@@ -88,3 +89,7 @@ let mainArticle = document.getElementById("mainArticle");
 //--------SICARA GPT----------//
 let sicaraGpt = document.getElementById("sicaraGpt");
 //--------SICARA GPT END----------//
+
+//---------DEPLOY-------------//
+let deployPage = document.getElementById("deployPage");
+//---------DEPLOY END-------------//
